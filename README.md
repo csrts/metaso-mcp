@@ -49,6 +49,8 @@ npm run build
 
 ## MCP客户端配置
 
+详情请看->[MCP-CONFIG](https://github.com/csrts/metaso-mcp/blob/main/MCP-CONFIG.md)
+
 ### Claude Desktop
 
 在Claude Desktop的配置文件中添加：
@@ -149,7 +151,7 @@ npm run build
 ### 项目结构
 
 ```
-metaso-mcp-server/
+metaso-mcp/
 ├── src/
 │   ├── index.ts                 # 主入口文件
 │   ├── server.ts                # MCP服务器实现
@@ -163,8 +165,7 @@ metaso-mcp-server/
 │       ├── config.ts            # 配置管理
 │       └── http-client.ts       # HTTP客户端
 ├── tests/                       # 测试文件
-├── dist/                        # 编译输出
-└── specs/                       # 需求和设计文档
+└── dist/                        # 编译输出
 ```
 
 ### 开发命令
