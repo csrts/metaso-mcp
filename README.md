@@ -16,8 +16,8 @@
 
 ```bash
 # 克隆项目
-git clone <repository-url>
-cd metaso-mcp-server
+git clone https://github.com/csrts/metaso-mcp
+cd metaso-mcp
 
 # 安装依赖
 npm install
@@ -26,11 +26,6 @@ npm install
 npm run build
 ```
 
-### 使用NPM（如果已发布）
-
-```bash
-npm install -g metaso-mcp-server
-```
 
 ## 配置
 
@@ -180,18 +175,6 @@ npm run dev
 
 # 构建项目
 npm run build
-
-# 运行测试
-npm test
-
-# 代码检查
-npm run lint
-
-# 代码格式化
-npm run format
-
-# 类型检查
-npm run typecheck
 ```
 
 ### 运行测试
